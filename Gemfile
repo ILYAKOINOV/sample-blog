@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'database_cleaner'
   gem "factory_bot_rails"
   gem 'capybara', '>= 2.15'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
